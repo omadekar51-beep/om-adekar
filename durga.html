@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jai Mata Di - Durga Maa</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(135deg, #1a000c, #4a0000, #1a000c);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #fff;
+            overflow: hidden;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(255, 215, 0, 0.3);
+            border-radius: 20px;
+            padding: 40px;
+            text-align: center;
+            box-shadow: 0 0 50px rgba(255, 107, 0, 0.3), inset 0 0 20px rgba(255, 215, 0, 0.2);
+            position: relative;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #ffd700;
+            text-shadow: 0 0 15px rgba(255, 215, 0, 0.8), 0 0 30px rgba(255, 107, 0, 0.8);
+            margin-bottom: 20px;
+            letter-spacing: 2px;
+        }
+
+        .durga-container {
+            position: relative;
+            width: 320px;
+            height: 380px;
+            margin: 0 auto;
+            filter: drop-shadow(0 0 20px rgba(255, 215, 0, 0.6));
+        }
+
+        svg {
+            width: 100%;
+            height: 100%;
+        }
+
+        .halo {
+            animation: pulse 3s infinite alternate;
+        }
+
+        @keyframes pulse {
+            0% { opacity: 0.6; transform: scale(0.98); }
+            100% { opacity: 1; transform: scale(1.02); }
+        }
+
+        .blessing-text {
+            margin-top: 25px;
+            font-size: 1.2rem;
+            color: #ffcc00;
+            font-weight: 600;
+            letter-spacing: 1px;
+            text-shadow: 0 0 10px rgba(255, 204, 0, 0.5);
+        }
+
+        .trishul-bg {
+            position: absolute;
+            top: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: -1;
+            opacity: 0.15;
+            font-size: 15rem;
+            color: #ffd700;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="trishul-bg">🔱</div>
+        <h1>🔱 ॐ श्री दुर्गायै नमः 🔱</h1>
+
+        <div class="durga-container">
+            <svg viewBox="0 0 300 360" xmlns="http://www.w3.org/2000/svg">
+                <circle class="halo" cx="150" cy="180" r="130" fill="none" stroke="#ffd700" stroke-width="3" stroke-dasharray="8 4" />
+                <circle class="halo" cx="150" cy="180" r="115" fill="none" stroke="#ff6b00" stroke-width="2" />
+
+                <path d="M 150,65 Q 150,115 150,115" stroke="#ff0000" stroke-width="12" stroke-linecap="round" />
+                <circle cx="150" cy="55" r="7" fill="#ffd700" />
+                <path d="M 135,75 Q 150,85 165,75" stroke="#ffd700" stroke-width="3" fill="none" />
+
+                <g>
+                    <path d="M 60,150 Q 105,105 140,150 Q 105,190 60,150 Z" fill="#ffffff" stroke="#ffd700" stroke-width="2"/>
+                    <circle cx="105" cy="148" r="18" fill="#1a000c" />
+                    <circle cx="105" cy="148" r="8" fill="#000000" />
+                    <circle cx="101" cy="144" r="3" fill="#ffffff" />
+                    <path d="M 50,135 Q 100,90 145,135" fill="none" stroke="#000000" stroke-width="5" stroke-linecap="round" />
+                </g>
+
+                <g>
+                    <path d="M 160,150 Q 195,105 240,150 Q 195,190 160,150 Z" fill="#ffffff" stroke="#ffd700" stroke-width="2"/>
+                    <circle cx="195" cy="148" r="18" fill="#1a000c" />
+                    <circle cx="195" cy="148" r="8" fill="#000000" />
+                    <circle cx="191" cy="144" r="3" fill="#ffffff" />
+                    <path d="M 155,135 Q 200,90 250,135" fill="none" stroke="#000000" stroke-width="5" stroke-linecap="round" />
+                </g>
+
+                <g>
+                    <path d="M 142,100 Q 150,85 158,100 Q 150,115 142,100 Z" fill="#ff0000" stroke="#ffd700" stroke-width="1.5" />
+                    <circle cx="150" cy="100" r="3" fill="#ffd700" />
+                </g>
+
+                <g>
+                    <circle cx="115" cy="195" r="32" fill="none" stroke="#ffd700" stroke-width="3" />
+                    <path d="M 85,195 Q 40,180 30,150" fill="none" stroke="#ffd700" stroke-width="1.5" stroke-dasharray="3 2" />
+                    <circle cx="115" cy="227" r="4" fill="#ff0000" />
+                    <circle cx="100" cy="223" r="3.5" fill="#ffffff" />
+                    <circle cx="130" cy="223" r="3.5" fill="#ffffff" />
+                </g>
+
+                <path d="M 100,40 Q 150,10 200,40" stroke="#ffd700" stroke-width="3" fill="none" />
+                <path d="M 120,30 Q 150,5 180,30" stroke="#ff6b00" stroke-width="2" fill="none" />
+            </svg>
+        </div>
+
+        <div class="blessing-text">✨ या देवी सर्वभूतेषु शक्ति-रूपेण संस्थिता ✨</div>
+    </div>
+
+</body>
+</html>
