@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jai Mata Di - Durga Maa</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: radial-gradient(circle, #2b0300 0%, #0f0000 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #ffd700;
+            overflow: hidden;
+        }
+
+        .card {
+            background: rgba(45, 10, 10, 0.7);
+            border: 2px solid #ff9900;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 0 30px rgba(255, 153, 0, 0.5), inset 0 0 15px rgba(255, 215, 0, 0.3);
+            text-align: center;
+            max-width: 500px;
+            width: 90%;
+            backdrop-filter: blur(8px);
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #fff;
+            text-shadow: 0 0 10px #ff3300, 0 0 20px #ff9900;
+        }
+
+        .image-container {
+            position: relative;
+            margin: 15px auto;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 0 25px rgba(255, 153, 0, 0.8);
+            border: 3px solid #ffd700;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform 0.5s ease;
+        }
+
+        .image-container:hover img {
+            transform: scale(1.03);
+        }
+
+        .blessing-text {
+            font-size: 1.2rem;
+            margin-top: 20px;
+            color: #ffeb3b;
+            text-shadow: 0 0 8px rgba(255, 235, 59, 0.8);
+            line-height: 1.5;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>🔱 ॐ श्री दुर्गायै नमः 🔱</h1>
+        
+        <div class="image-container">
+            <img src="https://images.unsplash.com/photo-1635848528906-88065096a605?q=80&w=800&auto=format&fit=crop" alt="Maa Durga">
+        </div>
+
+        <div class="blessing-text">
+            ✨ या देवी सर्वभूतेषु शक्ति-रूपेण संस्थिता ✨<br>
+            नमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः 🙏
+        </div>
+    </div>
+
+</body>
+</html>
